@@ -19,7 +19,7 @@ print('***  </creating file>  *** \n')
 
 
 
-print('***  <opening file>  *** \n')
+print('***  <working with file>  *** \n')
 
 file = open("countries_and_capitals.txt")
 
@@ -34,7 +34,7 @@ for line in file.readlines():
     print(line.strip()) # .strip method stripes the spaces and the \n as well
 file.close()
 
-print('***  </opening file>  *** \n')
+print('***  </working with file>  *** \n')
 
 
 
